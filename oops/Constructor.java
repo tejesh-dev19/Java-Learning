@@ -15,11 +15,8 @@ class A{
         System.out.println("this 2 parameter constructor");
         System.out.println("addition of two numbers: "+ (this.a+this.b));
     }
-
-    
-
-
 }
+
 public class Constructor {
     public static void main(String[] args) {
         //object 1 created calling 0 parameterized or parameterless constructor.
