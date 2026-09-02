@@ -15,7 +15,7 @@ class A1{
     {
         System.out.println("in java block ");
     }
-    
+
     public A1(){
         System.out.println("in A1 constructor");
     }
@@ -26,7 +26,7 @@ public class StaticKeyword {
     static{
        System.out.println("static block before main");
     }
-    /**
+    /*
      * If anything wants to excute before main give the statements to static block because it will execute in classloading itself
      */
 
