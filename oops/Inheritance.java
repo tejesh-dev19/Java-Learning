@@ -18,7 +18,7 @@ class B extends A2{//child class or derived class or sub class
 }
 
 class C extends B{
-   
+    // class C has by default has super() if you mention or not mention, it  calls the parent class B, it has super() it call parent class A constructor excute the instruction 
 }
 
 
