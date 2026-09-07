@@ -1,6 +1,7 @@
 package collectionFramework;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListEx {
     public static void main(String[] args) {
@@ -11,6 +12,9 @@ public class ArrayListEx {
         al.add(66);
         al.add(0,58);
         al.add(99);
+        
+
+        Collections.sort(al);
 
         System.out.println(al);
     }
