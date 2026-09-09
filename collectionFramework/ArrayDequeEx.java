@@ -10,7 +10,8 @@ public class ArrayDequeEx {
         ad.add(30);
         ad.add(40);
         ad.add(66);
-
+        ad.addFirst(22);
+        ad.addLast(28);
         System.out.println(ad);
 
     }
