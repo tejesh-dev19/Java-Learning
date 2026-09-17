@@ -30,15 +30,23 @@ public class SynchronizeEx {
         Thread t3 = new Thread(()->{
                 for (int i = 0; i < 1000; i++) {
                     c.increment();
-                } });        
+                } }); 
+                
+                
+        Thread t4 = new Thread(()->{
+                for (int i = 0; i < 1000; i++) {
+                    c.increment();
+                } });  
 
         t1.start();
         t2.start();
         t3.start();
+        t4.start();
 
         t1.join(); 
         t2.join();     
-        t3.join();          
+        t3.join(); 
+        t4.join();         
 
         System.out.println("count "+ c.count);
     }
